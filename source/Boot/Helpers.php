@@ -325,7 +325,7 @@ function flash(): ?string
 }
 
 /**
- * YEAR TO CENTURY
+ * ANO PARA SECULO
  */
 function year_to_century(int $year)
 {
@@ -345,7 +345,7 @@ function year_to_century(int $year)
 }
 
 /**
- * PRIME NUMBERS
+ * NUMEROS PRIMOS
  */
 function prime_numbers(int $first, int $last): string
 {
@@ -364,7 +364,7 @@ function prime_numbers(int $first, int $last): string
 }
 
 /**
- * DONT REPEAT
+ * NÃO REPETIR
  */
 function dont_repeat()
 {
@@ -396,6 +396,11 @@ function dont_repeat()
             $dontRepeaters) . ".";
 }
 
+/**
+ * SEQUENCIA CRESCENTE
+ * @param array $array
+ * @return string
+ */
 function increasing_sequence(array $array)
 {
 
