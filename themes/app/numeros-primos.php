@@ -5,11 +5,11 @@
         <div class="label_group">
             <label>
                 <span class="field icon-user">Primeiro número:</span>
-                <input class="radius" type="number" name="first" placeholder="Ano:" required/>
+                <input class="radius" type="number" name="first" placeholder="primeiro n:" required/>
             </label>
             <label>
                 <span class="field icon-user">segundo Número:</span>
-                <input class="radius" type="number" name="last" placeholder="Ano:" required/>
+                <input class="radius" type="number" name="last" placeholder="Segundo n:" required/>
             </label>
         </div>
         <label>
