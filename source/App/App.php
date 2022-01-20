@@ -158,7 +158,7 @@ class App extends Controller
 
             $string = '';
             for ($i = 1; $i < rand(1, 10); $i++) {
-                $string .= rand() . ", ";
+                $string .= rand(1, 200) . ", ";
             }
 
             $array = explode(', ', $string);
